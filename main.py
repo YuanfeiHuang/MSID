@@ -112,7 +112,7 @@ def main():
             with open(opt.model_path + '/Results/Results_{}.csv'.format(data_test), 'w', newline='') as f:
                 f_csv = csv.writer(f)
                 f_csv.writerow(
-                    ['image_name', 'PSNR Forward', 'PSNR Reverse', 'SSIM Forward', 'SSIM Reverse', 'Time (ms)'])
+                    ['image_name', 'PSNR', 'SSIM', 'Time (ms)'])
                 train.test(opt.dir_data + 'Test/{}/HR'.format(data_test), result_path, model, opt, f_csv)
 
 if __name__ == '__main__':
