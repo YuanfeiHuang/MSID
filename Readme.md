@@ -1,5 +1,5 @@
-# Multi-scale Information Distillation Network for Efficient Image Super-Resolution
-This repository is for MSID introduced in the paper.
+# Multi-scale Information Distillation Network for Efficient Image Super-Resolution. Knowledge-Based Systems, 2023.
+This repository is for MSID introduced in the [paper](https://www.sciencedirect.com/science/article/pii/S0950705123004689).
 ## Dependenices
 * python 3.7
 * pytorch 1.10
